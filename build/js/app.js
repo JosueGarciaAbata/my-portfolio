@@ -1,1 +1,1 @@
-console.log("Hola, que tal...");
+function scrollNav(){document.querySelectorAll(".main-nav a").forEach((e=>{e.addEventListener("click",(e=>{e.preventDefault();const t=e.target.getAttribute("href"),n=document.querySelector(t);null!==n&&n.scrollIntoView({behavior:"smooth"})}))}))}document.addEventListener("DOMContentLoaded",(()=>{scrollNav()}));
