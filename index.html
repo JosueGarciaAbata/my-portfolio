@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 
@@ -14,10 +15,12 @@
     <nav id="nav">
         <ul class="container">
             <div class="main-nav">
-                <li><a href="#top">Top</a></li>
-                <li><a href="#studies">Studies</a></li>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#studies">Education</a></li>
                 <li><a href="#skilss">Skills</a></li>
                 <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </div>
         </ul>
     </nav>
@@ -35,15 +38,63 @@
                 </div>
                 <div class="col-8 col-7-large col-12-medium">
                     <header>
-                        <h1>Hi. I'm <strong>Josué García</strong>.</h1>
+                        <h1>Hi, it's <strong>Josué García</strong>.</h1>
                     </header>
                     <p>I am a developer with an interest in back-end development, especially in Java and technologies
                         such as the Spring
                         Framework and Spring Boot.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/JosueGarciaAbata"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/josuegab.75/"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </article>
+
+    <!-- About Me -->
+    <article id="about-me" class="wrapper style2">
+        <div class="container">
+            <header>
+                <h2>About Me</h2>
+            </header>
+            <div class="row">
+                <!-- Información personal con iconos y estilo -->
+                <div class="col-12">
+                    <p>
+                        <strong>Hello! I’m Josué García.</strong> I am a passionate back-end developer interested in
+                        <strong>Java</strong>, <strong>Spring Framework</strong>, and <strong>Spring Boot</strong>. My
+                        goal is to build scalable and efficient systems.
+                    </p>
+                    <p>
+                        Currently pursuing my studies at <strong>Universidad Técnica de Ambato</strong>, I am always
+                        exploring new technologies
+                        and working on challenging projects to grow as a developer.
+                    </p>
+                    <!-- Lista de habilidades o intereses -->
+                    <ul style="list-style: none; padding: 0;">
+                        <li>
+                            <i class="fa-solid fa-code"></i> Passionate about clean and efficient code.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-database"></i> Enthusiastic about database management with SQL and
+                            PL/SQL.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-graduation-cap"></i> Committed to lifelong learning and growth.
+                        </li>
+                    </ul>
+                    <!-- Cita destacada -->
+                    <blockquote
+                        style="margin: 0 auto; padding-left: 1rem; border-left: 5px solid #b74b4b; font-style: italic; text-align: center; max-width: 60%; display: flex; align-items: center; justify-content: center; height: 100px;">
+                        <p style="margin: 0;">"Technology is the tool that drives innovation and solves the most complex
+                            problems."</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </article>
+
 
     <!-- Studies -->
     <article id="studies" class="wrapper style3">
@@ -85,7 +136,7 @@
         </div>
     </article>
 
-    <!-- Studies -->
+    <!-- Skills -->
     <article id="skilss" class="wrapper style3">
         <div class="container">
             <header>
@@ -227,6 +278,45 @@
                         <p>You can have a pet!</p>
                     </article>
                 </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Contact -->
+    <article id="contact" class="wrapper style2">
+        <div class="container">
+            <header>
+                <h2>Contact Me</h2>
+                <p>I'd love to hear from you! Reach out to me through email or phone.</p>
+            </header>
+            <div class="row">
+                <!-- Correo -->
+                <div class="col-6 col-12-small">
+                    <p>
+                        <i class="fa-solid fa-envelope" style="color: #756d6d;"></i>
+                        <strong>Email:</strong><br>
+                        <a href="mailto:josuegarcab2@hotmail.com">josuegarcab2@hotmail.com</a><br>
+                        <a href="mailto:josuegarcab2@gmail.com">josuegarcab2@gmail.com</a>
+                    </p>
+                </div>
+                <!-- Teléfono -->
+                <div class="col-6 col-12-small">
+                    <p>
+                        <i class="fa-solid fa-phone" style="color: #756d6d;"></i>
+                        <strong>Phone:</strong><br>
+                        <a href="tel:+593984011952">+593 984 011 952</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Íconos sociales -->
+            <div class="social-icons" style="margin-top: 1rem; text-align: center;">
+                <a href="https://github.com/JosueGarciaAbata"
+                    style="margin-right: 1rem; font-size: 2rem; color: #756d6d;">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/josuegab.75/" style="font-size: 2rem; color: #756d6d;">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
             </div>
         </div>
     </article>
